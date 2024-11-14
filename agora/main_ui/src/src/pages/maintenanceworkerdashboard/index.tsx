@@ -98,7 +98,6 @@ const MaintenanceWorkerDashboard = () => {
                 onClose={toggleCerebralDrawer} 
               />
             )}
-            onRenderFooterContent={onRenderCerebralFooterContent}
             isFooterAtBottom={true}
             hasCloseButton={true}
             closeButtonAriaLabel="Close"
@@ -126,7 +125,7 @@ const MaintenanceWorkerDashboard = () => {
                       <Button appearance="transparent" icon={<DismissRegular />} />
                     }
                   >
-                    <Button>Ask Cerebral</Button>
+                    {/* <Button>Ask Cerebral</Button> */}
                   </MessageBarActions>
                 </MessageBar>
                 </Stack>
